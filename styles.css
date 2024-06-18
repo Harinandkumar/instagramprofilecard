@@ -1,0 +1,88 @@
+*{
+    margin: 0px;
+    padding: 0px;
+    box-sizing: border-box;
+}
+body {
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-top: 10px;
+    background-color: white;
+  }
+img{
+    width: 80px;
+            height: 80px;
+            border-radius: 50%;
+}
+.posts{
+color: black;
+}
+.followers{
+    color: black;
+}
+
+.upper{
+    display: flex;
+    gap: 40px;
+    align-items: center;
+   
+    justify-content: center;
+    
+}
+.info{
+    color: black;
+    display: flex;
+    flex-direction: column;
+    gap: 4px;
+}
+#button1{
+    border-radius: 20px;
+   padding: 2px;
+   height: 29px;
+   width: 155px;
+border: none;
+border-color: rgba(244, 244, 244, 0.1);
+background-color: rgba(191, 191, 191, 0.25);
+color: black;
+}
+.bio{
+    display: flex;
+    flex-direction: column;
+    padding: 5px;
+    color: rgb(28, 27, 27);
+}
+.button{
+    display: flex;
+    flex-direction: column;
+    padding: 2px;
+    
+   
+}
+#button2{
+    background-color: rgb(71, 71, 232);
+    border: none;
+    border-radius: 20px;
+    padding: 10px;
+    color: white;
+}
+.image{
+    display: flex;
+    flex-direction: column;
+   justify-content: center;
+   align-items: center;
+   font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+   
+}
+#image2{
+    width: 300px;
+    height: 250px;
+   
+}
+a{
+    color: white;
+    text-decoration: none;
+   font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+   text-align: center;
+}
